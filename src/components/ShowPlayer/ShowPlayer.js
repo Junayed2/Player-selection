@@ -8,7 +8,7 @@ const ShowPlayer = (props) => {
     return (
         <div className="player">
             <div>
-                <img style={{ width: '300px', height: '300px', borderRadius: '15px' }} src={picture} />
+                <img style={{ width: '300px', height: '300px', borderRadius: '15px' }} src={picture} alt=''/>
             </div>
             <div>
                 <h4 className="player-name">{name}</h4>
